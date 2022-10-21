@@ -1,0 +1,8 @@
+SUBDESIGN 'lab12'
+(
+A, B, C, D : INPUT;
+Y : OUTPUT;
+)
+BEGIN
+Y = (((!(B&D))#(C&A))$D);
+END;
