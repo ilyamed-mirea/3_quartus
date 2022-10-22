@@ -4,5 +4,5 @@ A, B, C, D : INPUT;
 Y : OUTPUT;
 )
 BEGIN
-Y = (((!(B&D))#(C&A))$D);
+Y = (((!(B&D)) OR (C&A)) XOR D);
 END;
