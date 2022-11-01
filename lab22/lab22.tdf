@@ -1,0 +1,15 @@
+SUBDESIGN 'lab22'
+(
+D, AD1, AD2, AD3 : INPUT;
+OUT1, OUT2, OUT3, OUT4, OUT5, OUT6, OUT7, OUT8  : OUTPUT;
+)
+BEGIN
+OUT1 = D & !AD1 & !AD2 & !AD3; 
+OUT2 = D & !AD1 & !AD2 & AD3;
+OUT3 = D & !AD1 & AD2 & !AD3;
+OUT4 = D & !AD1 & AD2 & AD3;
+OUT5 = D & AD1 & !AD2 & !AD3;
+OUT6 = D & AD1 & !AD2 & AD3;
+OUT7 = D & AD1 & AD2 & !AD3;
+OUT8 = D & AD1 & AD2 & AD3;
+END;
