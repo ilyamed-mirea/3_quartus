@@ -93,6 +93,6 @@ END;
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter0.tdf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter0.inc TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter0.cmp FALSE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter0.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter0.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter0_inst.tdf FALSE
 -- Retrieval info: LIB_FILE: lpm
